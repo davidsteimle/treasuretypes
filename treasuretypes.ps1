@@ -69,7 +69,7 @@ $TreasureTypes = @(
             "Acronym" = ""
             "Multiplier" = 1
             "Dice" = 4
-            "Die" = 40
+            "Die" = 10
             "Chance" = 60
         }
         "Jewelry" = [money]@{
@@ -77,7 +77,7 @@ $TreasureTypes = @(
             "Acronym" = ""
             "Multiplier" = 1
             "Dice" = 3
-            "Die" = 30
+            "Die" = 10
             "Chance" = 50
         }
         "Magic" = "Any 3: 30%"
@@ -136,9 +136,9 @@ $TreasureTypes = @(
             "Name" = "jewelry"
             "Acronym" = ""
             "Multiplier" = 1
-            "Dice" = 3
-            "Die" = 30
-            "Chance" = 50
+            "Dice" = 1
+            "Die" = 4
+            "Chance" = 20
         }
         "Magic" = "Sword, armor, or misc. weapon: 10%"
     }
@@ -440,7 +440,7 @@ $TreasureTypes = @(
             "Die" = 10
             "Chance" = 25
         }
-        "Magic" = "Any 4 plus 1 scroll: 30%"
+        "Magic" = "Any 4 plus 1 scroll: 35%"
     },
     [treasuretype]@{
         "TreasureType" = "H"
