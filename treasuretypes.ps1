@@ -151,8 +151,8 @@ $TreasureTypes = @(
             "Acronym" = "cp"
             "Multiplier" = 1000
             "Dice" = 1
-            "Die" = 6
-            "Chance" = 25
+            "Die" = 12
+            "Chance" = 20
         }
         "Silver" = [money]@{
             "Name" = "silver"
@@ -167,42 +167,42 @@ $TreasureTypes = @(
             "Acronym" = "ep"
             "Multiplier" = 1000
             "Dice" = 1
-            "Die" = 6
-            "Chance" = 35
+            "Die" = 4
+            "Chance" = 10
         }
         "Gold" = [money]@{
             "Name" = "gold"
             "Acronym" = "gp"
             "Multiplier" = 1000
-            "Dice" = 1
-            "Die" = 10
-            "Chance" = 40
+            "Dice" = 0
+            "Die" = 0
+            "Chance" = 0
         }
         "Platinum" = [money]@{
             "Name" = "platinum"
             "Acronym" = "pp"
             "Multiplier" = 100
-            "Dice" = 1
-            "Die" = 4
-            "Chance" = 25
+            "Dice" = 0
+            "Die" = 0
+            "Chance" = 0
         }
         "Gems" = [money]@{
             "Name" = "gem"
             "Acronym" = ""
             "Multiplier" = 1
-            "Dice" = 4
-            "Die" = 40
-            "Chance" = 60
+            "Dice" = 1
+            "Die" = 6
+            "Chance" = 25
         }
         "Jewelry" = [money]@{
             "Name" = "jewelry"
             "Acronym" = ""
             "Multiplier" = 1
-            "Dice" = 3
-            "Die" = 30
-            "Chance" = 50
+            "Dice" = 1
+            "Die" = 3
+            "Chance" = 20
         }
-        "Magic" = ""
+        "Magic" = "Any 2: 10%"
         
     },
     [treasuretype]@{
@@ -212,58 +212,58 @@ $TreasureTypes = @(
             "Acronym" = "cp"
             "Multiplier" = 1000
             "Dice" = 1
-            "Die" = 6
-            "Chance" = 25
+            "Die" = 8
+            "Chance" = 10
         }
         "Silver" = [money]@{
             "Name" = "silver"
             "Acronym" = "sp"
             "Multiplier" = 1000
             "Dice" = 1
-            "Die" = 6
-            "Chance" = 30
+            "Die" = 12
+            "Chance" = 15
         }
         "Electrum" = [money]@{
             "Name" = "electrum"
             "Acronym" = "ep"
             "Multiplier" = 1000
             "Dice" = 1
-            "Die" = 6
-            "Chance" = 35
+            "Die" = 8
+            "Chance" = 15
         }
         "Gold" = [money]@{
             "Name" = "gold"
             "Acronym" = "gp"
             "Multiplier" = 1000
             "Dice" = 1
-            "Die" = 10
-            "Chance" = 40
+            "Die" = 6
+            "Chance" = 50
         }
         "Platinum" = [money]@{
             "Name" = "platinum"
             "Acronym" = "pp"
             "Multiplier" = 100
-            "Dice" = 1
-            "Die" = 4
-            "Chance" = 25
+            "Dice" = 0
+            "Die" = 0
+            "Chance" = 0
         }
         "Gems" = [money]@{
             "Name" = "gem"
             "Acronym" = ""
             "Multiplier" = 1
-            "Dice" = 4
-            "Die" = 40
-            "Chance" = 60
+            "Dice" = 1
+            "Die" = 10
+            "Chance" = 30
         }
         "Jewelry" = [money]@{
             "Name" = "jewelry"
             "Acronym" = ""
             "Multiplier" = 1
-            "Dice" = 3
-            "Die" = 30
-            "Chance" = 50
+            "Dice" = 1
+            "Die" = 6
+            "Chance" = 25
         }
-        "Magic" = ""
+        "Magic" = "Any 2 plus 1 potion: 15%"
         
     },
     [treasuretype]@{
@@ -273,16 +273,16 @@ $TreasureTypes = @(
             "Acronym" = "cp"
             "Multiplier" = 1000
             "Dice" = 1
-            "Die" = 6
-            "Chance" = 25
+            "Die" = 10
+            "Chance" = 5
         }
         "Silver" = [money]@{
             "Name" = "silver"
             "Acronym" = "sp"
             "Multiplier" = 1000
             "Dice" = 1
-            "Die" = 6
-            "Chance" = 30
+            "Die" = 12
+            "Chance" = 25
         }
         "Electrum" = [money]@{
             "Name" = "electrum"
@@ -290,41 +290,41 @@ $TreasureTypes = @(
             "Multiplier" = 1000
             "Dice" = 1
             "Die" = 6
-            "Chance" = 35
+            "Chance" = 25
         }
         "Gold" = [money]@{
             "Name" = "gold"
             "Acronym" = "gp"
             "Multiplier" = 1000
             "Dice" = 1
-            "Die" = 10
-            "Chance" = 40
+            "Die" = 8
+            "Chance" = 25
         }
         "Platinum" = [money]@{
             "Name" = "platinum"
             "Acronym" = "pp"
             "Multiplier" = 100
-            "Dice" = 1
-            "Die" = 4
-            "Chance" = 25
+            "Dice" = 0
+            "Die" = 0
+            "Chance" = 0
         }
         "Gems" = [money]@{
             "Name" = "gem"
             "Acronym" = ""
             "Multiplier" = 1
-            "Dice" = 4
-            "Die" = 40
-            "Chance" = 60
+            "Dice" = 1
+            "Die" = 12
+            "Chance" = 15
         }
         "Jewelry" = [money]@{
             "Name" = "jewelry"
             "Acronym" = ""
             "Multiplier" = 1
-            "Dice" = 3
-            "Die" = 30
-            "Chance" = 50
+            "Dice" = 1
+            "Die" = 8
+            "Chance" = 10
         }
-        "Magic" = ""
+        "Magic" = "Any 3 plus 1 scroll: 25%"
         
     },
     [treasuretype]@{
@@ -333,25 +333,25 @@ $TreasureTypes = @(
             "Name" = "copper"
             "Acronym" = "cp"
             "Multiplier" = 1000
-            "Dice" = 1
-            "Die" = 6
-            "Chance" = 25
+            "Dice" = 0
+            "Die" = 0
+            "Chance" = 0
         }
         "Silver" = [money]@{
             "Name" = "silver"
             "Acronym" = "sp"
             "Multiplier" = 1000
             "Dice" = 1
-            "Die" = 6
-            "Chance" = 30
+            "Die" = 20
+            "Chance" = 10
         }
         "Electrum" = [money]@{
             "Name" = "electrum"
             "Acronym" = "ep"
             "Multiplier" = 1000
             "Dice" = 1
-            "Die" = 6
-            "Chance" = 35
+            "Die" = 12
+            "Chance" = 15
         }
         "Gold" = [money]@{
             "Name" = "gold"
@@ -366,26 +366,26 @@ $TreasureTypes = @(
             "Acronym" = "pp"
             "Multiplier" = 100
             "Dice" = 1
-            "Die" = 4
-            "Chance" = 25
+            "Die" = 8
+            "Chance" = 35
         }
         "Gems" = [money]@{
             "Name" = "gem"
             "Acronym" = ""
             "Multiplier" = 1
-            "Dice" = 4
-            "Die" = 40
-            "Chance" = 60
+            "Dice" = 3
+            "Die" = 10
+            "Chance" = 20
         }
         "Jewelry" = [money]@{
             "Name" = "jewelry"
             "Acronym" = ""
             "Multiplier" = 1
-            "Dice" = 3
-            "Die" = 30
-            "Chance" = 50
+            "Dice" = 1
+            "Die" = 10
+            "Chance" = 10
         }
-        "Magic" = ""
+        "Magic" = "Any 3 except swords or misc. weapons, plus 1 potion and 1 scroll: 30%"
         
     },
     [treasuretype]@{
@@ -576,60 +576,60 @@ $TreasureTypes = @(
         "Copper" = [money]@{
             "Name" = "copper"
             "Acronym" = "cp"
-            "Multiplier" = 1000
-            "Dice" = 1
-            "Die" = 6
-            "Chance" = 25
+            "Multiplier" = 1
+            "Dice" = 3
+            "Die" = 8
+            "Chance" = 100
         }
         "Silver" = [money]@{
             "Name" = "silver"
             "Acronym" = "sp"
-            "Multiplier" = 1000
-            "Dice" = 1
-            "Die" = 6
-            "Chance" = 30
+            "Multiplier" = 1
+            "Dice" = 0
+            "Die" = 0
+            "Chance" = 0
         }
         "Electrum" = [money]@{
             "Name" = "electrum"
             "Acronym" = "ep"
-            "Multiplier" = 1000
-            "Dice" = 1
-            "Die" = 6
-            "Chance" = 35
+            "Multiplier" = 1
+            "Dice" = 0
+            "Die" = 0
+            "Chance" = 0
         }
         "Gold" = [money]@{
             "Name" = "gold"
             "Acronym" = "gp"
-            "Multiplier" = 1000
-            "Dice" = 1
-            "Die" = 10
-            "Chance" = 40
+            "Multiplier" = 1
+            "Dice" = 0
+            "Die" = 0
+            "Chance" = 0
         }
         "Platinum" = [money]@{
             "Name" = "platinum"
             "Acronym" = "pp"
-            "Multiplier" = 100
-            "Dice" = 1
-            "Die" = 4
-            "Chance" = 25
+            "Multiplier" = 1
+            "Dice" = 0
+            "Die" = 0
+            "Chance" = 0
         }
         "Gems" = [money]@{
             "Name" = "gem"
             "Acronym" = ""
             "Multiplier" = 1
-            "Dice" = 4
-            "Die" = 40
-            "Chance" = 60
+            "Dice" = 0
+            "Die" = 0
+            "Chance" = 0
         }
         "Jewelry" = [money]@{
             "Name" = "jewelry"
             "Acronym" = ""
             "Multiplier" = 1
-            "Dice" = 3
-            "Die" = 30
-            "Chance" = 50
+            "Dice" = 0
+            "Die" = 0
+            "Chance" = 0
         }
-        "Magic" = ""
+        "Magic" = "nil"
         
     },
     [treasuretype]@{
@@ -637,60 +637,60 @@ $TreasureTypes = @(
         "Copper" = [money]@{
             "Name" = "copper"
             "Acronym" = "cp"
-            "Multiplier" = 1000
-            "Dice" = 1
-            "Die" = 6
-            "Chance" = 25
+            "Multiplier" = 1
+            "Dice" = 0
+            "Die" = 0
+            "Chance" = 0
         }
         "Silver" = [money]@{
             "Name" = "silver"
             "Acronym" = "sp"
-            "Multiplier" = 1000
-            "Dice" = 1
+            "Multiplier" = 1
+            "Dice" = 3
             "Die" = 6
-            "Chance" = 30
+            "Chance" = 100
         }
         "Electrum" = [money]@{
             "Name" = "electrum"
             "Acronym" = "ep"
-            "Multiplier" = 1000
-            "Dice" = 1
-            "Die" = 6
-            "Chance" = 35
+            "Multiplier" = 1
+            "Dice" = 0
+            "Die" = 0
+            "Chance" = 0
         }
         "Gold" = [money]@{
             "Name" = "gold"
             "Acronym" = "gp"
-            "Multiplier" = 1000
-            "Dice" = 1
-            "Die" = 10
-            "Chance" = 40
+            "Multiplier" = 1
+            "Dice" = 0
+            "Die" = 0
+            "Chance" = 0
         }
         "Platinum" = [money]@{
             "Name" = "platinum"
             "Acronym" = "pp"
-            "Multiplier" = 100
-            "Dice" = 1
-            "Die" = 4
-            "Chance" = 25
+            "Multiplier" = 1
+            "Dice" = 0
+            "Die" = 0
+            "Chance" = 0
         }
         "Gems" = [money]@{
             "Name" = "gem"
             "Acronym" = ""
             "Multiplier" = 1
-            "Dice" = 4
-            "Die" = 40
-            "Chance" = 60
+            "Dice" = 0
+            "Die" = 0
+            "Chance" = 0
         }
         "Jewelry" = [money]@{
             "Name" = "jewelry"
             "Acronym" = ""
             "Multiplier" = 1
-            "Dice" = 3
-            "Die" = 30
-            "Chance" = 50
+            "Dice" = 0
+            "Die" = 0
+            "Chance" = 0
         }
-        "Magic" = ""
+        "Magic" = "nil"
         
     },
     [treasuretype]@{
@@ -698,60 +698,60 @@ $TreasureTypes = @(
         "Copper" = [money]@{
             "Name" = "copper"
             "Acronym" = "cp"
-            "Multiplier" = 1000
-            "Dice" = 1
-            "Die" = 6
-            "Chance" = 25
+            "Multiplier" = 1
+            "Dice" = 0
+            "Die" = 0
+            "Chance" = 0
         }
         "Silver" = [money]@{
             "Name" = "silver"
             "Acronym" = "sp"
-            "Multiplier" = 1000
-            "Dice" = 1
-            "Die" = 6
-            "Chance" = 30
+            "Multiplier" = 1
+            "Dice" = 0
+            "Die" = 0
+            "Chance" = 0
         }
         "Electrum" = [money]@{
             "Name" = "electrum"
             "Acronym" = "ep"
-            "Multiplier" = 1000
-            "Dice" = 1
-            "Die" = 6
-            "Chance" = 35
+            "Multiplier" = 1
+            "Dice" = 2
+            "Die" = 12
+            "Chance" = 100
         }
         "Gold" = [money]@{
             "Name" = "gold"
             "Acronym" = "gp"
-            "Multiplier" = 1000
-            "Dice" = 1
-            "Die" = 10
-            "Chance" = 40
+            "Multiplier" = 1
+            "Dice" = 0
+            "Die" = 0
+            "Chance" = 0
         }
         "Platinum" = [money]@{
             "Name" = "platinum"
             "Acronym" = "pp"
-            "Multiplier" = 100
-            "Dice" = 1
-            "Die" = 4
-            "Chance" = 25
+            "Multiplier" = 1
+            "Dice" = 0
+            "Die" = 0
+            "Chance" = 0
         }
         "Gems" = [money]@{
             "Name" = "gem"
             "Acronym" = ""
             "Multiplier" = 1
-            "Dice" = 4
-            "Die" = 40
-            "Chance" = 60
+            "Dice" = 0
+            "Die" = 0
+            "Chance" = 0
         }
         "Jewelry" = [money]@{
             "Name" = "jewelry"
             "Acronym" = ""
             "Multiplier" = 1
-            "Dice" = 3
-            "Die" = 30
-            "Chance" = 50
+            "Dice" = 0
+            "Die" = 0
+            "Chance" = 0
         }
-        "Magic" = ""
+        "Magic" = "nil"
         
     },
     [treasuretype]@{
@@ -759,60 +759,60 @@ $TreasureTypes = @(
         "Copper" = [money]@{
             "Name" = "copper"
             "Acronym" = "cp"
-            "Multiplier" = 1000
-            "Dice" = 1
-            "Die" = 6
-            "Chance" = 25
+            "Multiplier" = 1
+            "Dice" = 0
+            "Die" = 0
+            "Chance" = 0
         }
         "Silver" = [money]@{
             "Name" = "silver"
             "Acronym" = "sp"
-            "Multiplier" = 1000
-            "Dice" = 1
-            "Die" = 6
-            "Chance" = 30
+            "Multiplier" = 1
+            "Dice" = 0
+            "Die" = 0
+            "Chance" = 0
         }
         "Electrum" = [money]@{
             "Name" = "electrum"
             "Acronym" = "ep"
-            "Multiplier" = 1000
-            "Dice" = 1
-            "Die" = 6
-            "Chance" = 35
+            "Multiplier" = 1
+            "Dice" = 0
+            "Die" = 0
+            "Chance" = 0
         }
         "Gold" = [money]@{
             "Name" = "gold"
             "Acronym" = "gp"
-            "Multiplier" = 1000
-            "Dice" = 1
-            "Die" = 10
-            "Chance" = 40
+            "Multiplier" = 1
+            "Dice" = 2
+            "Die" = 4
+            "Chance" = 100
         }
         "Platinum" = [money]@{
             "Name" = "platinum"
             "Acronym" = "pp"
-            "Multiplier" = 100
-            "Dice" = 1
-            "Die" = 4
-            "Chance" = 25
+            "Multiplier" = 1
+            "Dice" = 0
+            "Die" = 0
+            "Chance" = 0
         }
         "Gems" = [money]@{
             "Name" = "gem"
             "Acronym" = ""
             "Multiplier" = 1
-            "Dice" = 4
-            "Die" = 40
-            "Chance" = 60
+            "Dice" = 0
+            "Die" = 0
+            "Chance" = 0
         }
         "Jewelry" = [money]@{
             "Name" = "jewelry"
             "Acronym" = ""
             "Multiplier" = 1
-            "Dice" = 3
-            "Die" = 30
-            "Chance" = 50
+            "Dice" = 0
+            "Die" = 0
+            "Chance" = 0
         }
-        "Magic" = ""
+        "Magic" = "nil"
         
     },
     [treasuretype]@{
@@ -820,60 +820,60 @@ $TreasureTypes = @(
         "Copper" = [money]@{
             "Name" = "copper"
             "Acronym" = "cp"
-            "Multiplier" = 1000
-            "Dice" = 1
-            "Die" = 6
-            "Chance" = 25
+            "Multiplier" = 1
+            "Dice" = 0
+            "Die" = 0
+            "Chance" = 0
         }
         "Silver" = [money]@{
             "Name" = "silver"
             "Acronym" = "sp"
-            "Multiplier" = 1000
-            "Dice" = 1
-            "Die" = 6
-            "Chance" = 30
+            "Multiplier" = 1
+            "Dice" = 0
+            "Die" = 0
+            "Chance" = 0
         }
         "Electrum" = [money]@{
             "Name" = "electrum"
             "Acronym" = "ep"
-            "Multiplier" = 1000
-            "Dice" = 1
-            "Die" = 6
-            "Chance" = 35
+            "Multiplier" = 1
+            "Dice" = 0
+            "Die" = 0
+            "Chance" = 0
         }
         "Gold" = [money]@{
             "Name" = "gold"
             "Acronym" = "gp"
-            "Multiplier" = 1000
-            "Dice" = 1
-            "Die" = 10
-            "Chance" = 40
+            "Multiplier" = 1
+            "Dice" = 0
+            "Die" = 0
+            "Chance" = 0
         }
         "Platinum" = [money]@{
             "Name" = "platinum"
             "Acronym" = "pp"
-            "Multiplier" = 100
+            "Multiplier" = 1
             "Dice" = 1
-            "Die" = 4
-            "Chance" = 25
+            "Die" = 6
+            "Chance" = 100
         }
         "Gems" = [money]@{
             "Name" = "gem"
             "Acronym" = ""
             "Multiplier" = 1
-            "Dice" = 4
-            "Die" = 40
-            "Chance" = 60
+            "Dice" = 0
+            "Die" = 0
+            "Chance" = 0
         }
         "Jewelry" = [money]@{
             "Name" = "jewelry"
             "Acronym" = ""
             "Multiplier" = 1
-            "Dice" = 3
-            "Die" = 30
-            "Chance" = 50
+            "Dice" = 0
+            "Die" = 0
+            "Chance" = 0
         }
-        "Magic" = ""
+        "Magic" = "nil"
         
     },
     [treasuretype]@{
@@ -883,7 +883,7 @@ $TreasureTypes = @(
             "Acronym" = "cp"
             "Multiplier" = 1000
             "Dice" = 1
-            "Die" = 6
+            "Die" = 4
             "Chance" = 25
         }
         "Silver" = [money]@{
@@ -891,50 +891,50 @@ $TreasureTypes = @(
             "Acronym" = "sp"
             "Multiplier" = 1000
             "Dice" = 1
-            "Die" = 6
-            "Chance" = 30
+            "Die" = 3
+            "Chance" = 20
         }
         "Electrum" = [money]@{
             "Name" = "electrum"
             "Acronym" = "ep"
             "Multiplier" = 1000
-            "Dice" = 1
-            "Die" = 6
-            "Chance" = 35
+            "Dice" = 0
+            "Die" = 0
+            "Chance" = 0
         }
         "Gold" = [money]@{
             "Name" = "gold"
             "Acronym" = "gp"
             "Multiplier" = 1000
-            "Dice" = 1
-            "Die" = 10
-            "Chance" = 40
+            "Dice" = 0
+            "Die" = 0
+            "Chance" = 0
         }
         "Platinum" = [money]@{
             "Name" = "platinum"
             "Acronym" = "pp"
             "Multiplier" = 100
-            "Dice" = 1
-            "Die" = 4
-            "Chance" = 25
+            "Dice" = 0
+            "Die" = 0
+            "Chance" = 0
         }
         "Gems" = [money]@{
             "Name" = "gem"
             "Acronym" = ""
             "Multiplier" = 1
-            "Dice" = 4
-            "Die" = 40
-            "Chance" = 60
+            "Dice" = 0
+            "Die" = 0
+            "Chance" = 0
         }
         "Jewelry" = [money]@{
             "Name" = "jewelry"
             "Acronym" = ""
             "Multiplier" = 1
-            "Dice" = 3
-            "Die" = 30
-            "Chance" = 50
+            "Dice" = 0
+            "Die" = 0
+            "Chance" = 0
         }
-        "Magic" = ""
+        "Magic" = "nil"
         
     },
     [treasuretype]@{
@@ -943,9 +943,9 @@ $TreasureTypes = @(
             "Name" = "copper"
             "Acronym" = "cp"
             "Multiplier" = 1000
-            "Dice" = 1
-            "Die" = 6
-            "Chance" = 25
+            "Dice" = 0
+            "Die" = 0
+            "Chance" = 0
         }
         "Silver" = [money]@{
             "Name" = "silver"
@@ -960,42 +960,42 @@ $TreasureTypes = @(
             "Acronym" = "ep"
             "Multiplier" = 1000
             "Dice" = 1
-            "Die" = 6
-            "Chance" = 35
+            "Die" = 2
+            "Chance" = 25
         }
         "Gold" = [money]@{
             "Name" = "gold"
             "Acronym" = "gp"
             "Multiplier" = 1000
-            "Dice" = 1
-            "Die" = 10
-            "Chance" = 40
+            "Dice" = 0
+            "Die" = 0
+            "Chance" = 0
         }
         "Platinum" = [money]@{
             "Name" = "platinum"
             "Acronym" = "pp"
             "Multiplier" = 100
-            "Dice" = 1
-            "Die" = 4
-            "Chance" = 25
+            "Dice" = 0
+            "Die" = 0
+            "Chance" = 0
         }
         "Gems" = [money]@{
             "Name" = "gem"
             "Acronym" = ""
             "Multiplier" = 1
-            "Dice" = 4
-            "Die" = 40
-            "Chance" = 60
+            "Dice" = 0
+            "Die" = 0
+            "Chance" = 0
         }
         "Jewelry" = [money]@{
             "Name" = "jewelry"
             "Acronym" = ""
             "Multiplier" = 1
-            "Dice" = 3
-            "Die" = 30
-            "Chance" = 50
+            "Dice" = 0
+            "Die" = 0
+            "Chance" = 0
         }
-        "Magic" = ""
+        "Magic" = "nil"
         
     },
     [treasuretype]@{
@@ -1004,59 +1004,59 @@ $TreasureTypes = @(
             "Name" = "copper"
             "Acronym" = "cp"
             "Multiplier" = 1000
-            "Dice" = 1
-            "Die" = 6
-            "Chance" = 25
+            "Dice" = 0
+            "Die" = 0
+            "Chance" = 0
         }
         "Silver" = [money]@{
             "Name" = "silver"
             "Acronym" = "sp"
             "Multiplier" = 1000
-            "Dice" = 1
-            "Die" = 6
-            "Chance" = 30
+            "Dice" = 0
+            "Die" = 0
+            "Chance" = 0
         }
         "Electrum" = [money]@{
             "Name" = "electrum"
             "Acronym" = "ep"
             "Multiplier" = 1000
-            "Dice" = 1
-            "Die" = 6
-            "Chance" = 35
+            "Dice" = 0
+            "Die" = 0
+            "Chance" = 0
         }
         "Gold" = [money]@{
             "Name" = "gold"
             "Acronym" = "gp"
             "Multiplier" = 1000
-            "Dice" = 1
-            "Die" = 10
-            "Chance" = 40
+            "Dice" = 0
+            "Die" = 0
+            "Chance" = 0
         }
         "Platinum" = [money]@{
             "Name" = "platinum"
             "Acronym" = "pp"
             "Multiplier" = 100
-            "Dice" = 1
-            "Die" = 4
-            "Chance" = 25
+            "Dice" = 0
+            "Die" = 0
+            "Chance" = 0
         }
         "Gems" = [money]@{
             "Name" = "gem"
             "Acronym" = ""
             "Multiplier" = 1
-            "Dice" = 4
-            "Die" = 40
-            "Chance" = 60
+            "Dice" = 1
+            "Die" = 4
+            "Chance" = 50
         }
         "Jewelry" = [money]@{
             "Name" = "jewelry"
             "Acronym" = ""
             "Multiplier" = 1
-            "Dice" = 3
-            "Die" = 30
-            "Chance" = 50
+            "Dice" = 0
+            "Die" = 0
+            "Chance" = 0
         }
-        "Magic" = ""
+        "Magic" = "nil"
         
     },
     [treasuretype]@{
@@ -1117,7 +1117,7 @@ $TreasureTypes = @(
             "Die" = 30
             "Chance" = 50
         }
-        "Magic" = ""
+        "Magic" = "nil"
         
     },
     [treasuretype]@{
@@ -1612,4 +1612,64 @@ $TreasureTypes = @(
 
 #$TreasureTypes | Format-Table
 
-$TableDisplay = @()
+[System.Collections.ArrayList]$TableDisplay = @()
+
+class row {
+    [string]$TreasureType
+    [string]$Copper
+    [string]$Silver
+    [string]$Electrum
+    [string]$Gold
+    [string]$Platinum
+    [string]$Gems
+    [string]$Jewelry
+    [string]$MapsOrMagic
+}
+
+function Get-Nil{
+    param([string]$ThisEntry)
+    $Individuals = @('Copper','Silver','Electrum','Gold','Platinum')
+    if($PSItem.$ThisEntry.Chance -gt 0){
+        if(($Individuals -contains $ThisEntry) -and ($PSItem.$ThisEntry.Multiplier -gt 1)){
+            $("$($PSItem.$ThisEntry.Dice)d$($PSItem.$ThisEntry.Die) :$($PSItem.$ThisEntry.Chance)%")
+        } elseif(($Individuals -notcontains $ThisEntry) -and ($PSItem.$ThisEntry.Multiplier -eq 1)){
+            $("$($PSItem.$ThisEntry.Dice)d$($PSItem.$ThisEntry.Die) :$($PSItem.$ThisEntry.Chance)%")
+        } else {
+            $("$($PSItem.$ThisEntry.Dice)d$($PSItem.$ThisEntry.Die) pieces per individual")
+        }
+    } else {
+        "nil"
+    }
+}
+
+$TreasureTypes.ForEach({
+    $TableDisplay.Add(
+        [row]@{
+            "TreasureType" = $PSItem.TreasureType
+            "Copper" = $(Get-Nil -ThisEntry 'Copper')
+            "Silver" = $(Get-Nil -ThisEntry 'Silver')
+            "Electrum" = $(Get-Nil -ThisEntry 'Electrum')
+            "Gold" = $(Get-Nil -ThisEntry 'Gold')
+            "Platinum" = $(Get-Nil -ThisEntry 'Platinum')
+            "Gems" = $(Get-Nil -ThisEntry 'Gems')
+            "Jewelry" = $(Get-Nil -ThisEntry 'Jewelry')
+            "MapsOrMagic" = $PSItem.Magic
+        }
+    )
+})
+
+$TableDisplay | Format-Table
+
+$MarkdownTable = @"
+| Treasure Type | 1,000's of Copper | 1,000's of Silver | 1,000's of Electrum | 1,000's of Gold | 100's of Platinum | Gems | Jewelry | Maps or Magic |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---- |
+"@
+
+function New-Table{
+    $TableDisplay.ForEach({
+        $script:MarkdownTable = "$script:MarkdownTable`n| $($PSItem.TreasureType) | $($PSItem.Copper) | $($PSItem.Silver) | $($PSItem.Electrum) | $($PSItem.Gold) | $($PSItem.Platinum) | $($PSItem.Gems) | $($PSItem.Jewelry) | $($PSItem.MapsOrMagic) |"
+    })
+}
+
+New-Table
+$MarkdownTable | clip
