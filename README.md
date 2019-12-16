@@ -3,6 +3,8 @@ Treasure Types from the 1st edition Advanced Dungeons &amp; Dragons Monster Manu
 
 ## Appendix: Treasure Types
 
+This table is a duplicate of the table from the original book, created with my application data. Primarily for reference, and data verification.
+
 | Treasure Type | 1,000's of Copper | 1,000's of Silver | 1,000's of Electrum | 1,000's of Gold | 100's of Platinum | Gems | Jewelry | Maps or Magic |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---- |
 | A | 1d6 :25% | 1d6 :30% | 1d6 :35% | 1d10 :40% | 1d4 :25% | 4d10 :60% | 3d10 :50% | Any 3: 30% |
